@@ -1,5 +1,51 @@
 # sner changelog
 
+## 1.3.0 - plannerV2
+
+### Changed
+
+* plugin: nuclei, bump version
+* general: apply RUFF formatting
+* planner: heavy refactoring for unigied target handling and storage prunning fixes
+* server: refactored service-list cli
+* server, plugin: remove host.hostnames from pidb hosts
+* plugin: auror_testssl, bump testssl.sh
+* frontend: bump many packages
+* server: dbx, check-queue-configs (formely check-prod-queues) produce diff output
+* frontend: enhance vuln list selection ux
+* server: review sner.server.sessions
+* server: lower default pentesting speeds
+* ci: fix builds on cesnet gitlab instance
+
+### Fixed
+
+* frontend: fix portmap hover race condition
+
+### Added 
+
+* frontend: vuln/view add link to nuclei template
+* server, plugin: add auror scanning integration
+* server: planner, add pipelines graph command
+* server, agent: add nessus scanner
+
+### Removed
+
+* server: planner, remove dump-targets
+* tests: drop large dataset test, not used
+* plugin: remove nc, not used
+* plugin: remove screenshot_web, unused plugin
+* plugin: remove ssh_audit, not used
+* plugin: quicmap, removed unused plugin
+* server, plugin: remove plain testssl
+
+
+## 1.2.3 - tighten the screw
+
+### Fixed
+
+* frontend: fix, note/edit submit to correct backend url
+
+
 ## 1.2.2 - Uncrossed
 
 ### Fixed
